@@ -1,0 +1,36 @@
+.grid{
+    margin: 100px 0 0 ;
+    background-color: rgb(211, 224, 208);    
+    z-index: 100;
+    border: cornflowerblue;
+    box-shadow: cornflowerblue;
+}
+.buttonHeader{
+    width: 100%;
+    height: 5em;
+    background-color: rgb(82, 82, 82);
+    z-index: 0;
+    
+}
+
+.visualizeButton,
+.reset,
+.CSP{
+    box-shadow: blueviolet;
+    margin-top: 2em;
+    margin-right: 1em ;
+    margin-left: 1em;
+    background-color: rgb(136, 136, 224);
+    padding: 1em;
+    transition: transform 250ms ease-in-out;
+    
+}
+.visualizeButton:hover,
+.reset:hover,
+.CSP:hover {
+    transform: scale(1.2);
+}
+.pageBackground {
+    background-color: black;
+    height: 60em;
+}
